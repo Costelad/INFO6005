@@ -1,0 +1,8 @@
+Package: cw1-6005-ac23g08
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: php5-cli
+Maintainer: Adam Costello <ac23g08@ecs.soton.ac.uk>
+Description: blah
