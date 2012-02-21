@@ -6,3 +6,4 @@ Architecture: all
 Depends: php5-cli
 Maintainer: Adam Costello <ac23g08@ecs.soton.ac.uk>
 Description: Package to complete coursework for INFO6005
+ The software reads RSS feeds and displays them on screen
