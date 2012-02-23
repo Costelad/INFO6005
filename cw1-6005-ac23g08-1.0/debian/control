@@ -1,0 +1,13 @@
+Source: cw1-6005-ac23g08
+Section: web
+Priority: optional
+Maintainer: Adam Costello <ac23g08@ecs.soton.ac.uk>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 1.0
+Homepage: https://github.com/Costelad/INFO6005
+
+Package: cw1-6005-ac23g08
+Architecture: all
+Depends: php5-cli
+Description: RSS Feed Reader
+ RSS Feed Reader reads RSS feeds from command line

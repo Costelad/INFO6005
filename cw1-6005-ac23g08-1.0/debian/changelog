@@ -1,0 +1,13 @@
+cw1-6005-ac23g08 (1.0) stable; urgency=low
+
+  [Costelad <adamcostello50@hotmail.com>]
+  * added control file
+  * added software
+  * first debian package build
+  * added copyright file
+  * rebuilt debian package, altered Section field in the control file
+  * corrected file structure
+  * fixed file structure again
+
+ -- Costelad <adamcostello50@hotmail.com>  Mon, 20 Feb 2012 18:28:08 +0000
+
