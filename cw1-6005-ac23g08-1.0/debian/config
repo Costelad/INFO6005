@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+
+db_input critical cw1-6005-ac23g08/feed || true
+db_input critical cw1-6005-ac23g08/items || true
+db_go

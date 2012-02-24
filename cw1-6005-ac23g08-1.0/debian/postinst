@@ -1,0 +1,17 @@
+#!/bin/sh -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+db_get cw1-6005-ac23g08/feed
+feed="$RET"
+
+db_get cw1-6005-ac23g08/items
+items="$RET"
+
+config="`cat /etc/cw1-6005-ac23g08/feeds.conf`"
+
+echo "$config" | awk -v feeds="$feed" 'BEGIN {split(feeds, arrfeed, ",");} /^<feeds>/{p=1; print $0; for(feeds in arrfeed) print arrfeed[feeds]}/<\/feeds>/{p=0;} !p' | awk -v items="$items" '/^<items>/{p=1; print $0; print items;}/<\/items>/{p=0;}!p' > /etc/cw1-6005-ac23g08/feeds.conf
+
+
+db_stop

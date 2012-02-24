@@ -1,0 +1,11 @@
+Template: cw1-6005-ac23g08/feed
+Type: string
+Default: http://feeds.bbci.co.uk/news/rss.xml
+Description: RSS feed entry:
+ The feeds specified will be read and their items displayed
+
+Template: cw1-6005-ac23g08/items
+Type: string
+Default: 3
+Description: Number of items:
+ Number specified will be the amount of items to display from the given RSS feed
