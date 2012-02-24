@@ -1,0 +1,17 @@
+Simple PHP RSS Reader
+Adam Costello <ac23g08@ecs.soton.ac.uk>
+24th February 2012
+
+
+Usage:
+
+         cw1-6005-ac23g08
+
+Options:
+
+         --feeds feed1[,feed2,...]
+	      RSS feeds to read
+	      
+	 --items n
+              Number of elements to show from the RSS feeds
+
