@@ -1,6 +1,35 @@
+cw1-6005-ac23g08 (1.2) stable; urgency=low
+
+  [ac23g08 <adamcostello50@hotmail.com>]
+  * fixed file structure again, rebuilt package
+  * added bin folder
+  * gzipped the changelog, fixed extended description in control
+  * added control file
+  * added software
+  * first debian package build
+  * added copyright file
+  * rebuilt debian package, altered Section field in the control file
+  * corrected file structure
+  * fixed file structure again
+  * added control file
+
+ -- ac23g08 <adamcostello50@hotmail.com>  Wed, 22 Feb 2012 12:31:57 +0000
+
+cw1-6005-ac23g08 (1.1) stable; urgency=low
+
+  [Costelad <adamcostello50@hotmail.com>]
+  * fixed file structure again, rebuilt package
+  * added bin folder
+  * gzipped the changelog, fixed extended description in control
+
+ -- Costelad <adamcostello50@hotmail.com>  Tue, 21 Feb 2012 14:17:42 +0000
+
 cw1-6005-ac23g08 (1.0) stable; urgency=low
 
   [Costelad <adamcostello50@hotmail.com>]
+  * fixed file structure again, rebuilt package
+  * added bin folder
+  * gzipped the changelog, fixed extended description in control
   * added control file
   * added software
   * first debian package build

@@ -8,6 +8,6 @@ Homepage: https://github.com/Costelad/INFO6005
 
 Package: cw1-6005-ac23g08
 Architecture: all
-Depends: php5-cli
+Depends: php5-cli, debconf
 Description: RSS Feed Reader
  RSS Feed Reader reads RSS feeds from command line
